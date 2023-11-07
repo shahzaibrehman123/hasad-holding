@@ -1,0 +1,5 @@
+.navbar navbar-expand navbar-light bg-dark{
+    display: block;
+    position: fixed;
+    width: 100%;
+}

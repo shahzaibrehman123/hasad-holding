@@ -3,7 +3,7 @@ import img from "./Assets/image.png";
 import "./style.css";
 function Services() {
   return (
-    <div className="Services-container" id="service">
+    <div className="Services-container">
       <img src={img} className="img-responsive" alt="background" />
     </div>
   );

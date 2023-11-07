@@ -4,7 +4,7 @@ import "./style.css"
 
 function AboutUs() {
   return (
-    <div className="about-container" id="about">
+    <div className="about-container">
       <img
         src={img}
         className="img-responsive"

@@ -4,7 +4,7 @@ import "./style.css"
 
 function MainPage() {
   return (
-    <div className='main-container' id='home'>
+    <div className='main-container'>
       <img src={img} className='img-responsive' alt="background"/>
     </div>
   )

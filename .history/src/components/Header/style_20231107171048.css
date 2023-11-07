@@ -1,0 +1,5 @@
+.navbar-dark, .navbar[data-bs-theme=dark]{
+    display: block;
+    position: fixed;
+    width: 100%;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import img from "./Assets/image.png";
 import "./style.css";
-function Services() {
+
+function Contact() {
   return (
-    <div className="Services-container" id="service">
+    <div className="contact-container">
       <img src={img} className="img-responsive" alt="background" />
     </div>
   );
 }
 
-export default Services;
+export default Contact;
