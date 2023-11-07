@@ -4,7 +4,9 @@ import "./style.css"
 function Numbers() {
   return (
     <div className="numbers-container">
-    <img src={img} className="img-responsive" alt="background"/>
+     <div className="heading">
+      Numbers
+     </div>
     </div>
   );
 }

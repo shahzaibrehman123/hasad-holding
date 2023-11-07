@@ -12,25 +12,27 @@ import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import ClientAndPartners from './components/ClientAndPartners/ClientAndPartners';
+import NumberAnimation from './components/NumberAnimation/NumberAnimation';
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#95855c', minHeight: '100vh' }}>
+    <div style={{ backgroundColor: '#2E303E', minHeight: '100vh' }}>
     <Header/>
     <MainPage/>
     <AboutUs/>
-    <Services/>
-    <Numbers/>
+     <Services/>
+    
+ 
 
-    <ClientAndPartners/>
+    
 
 
     {/* <Clients/> */}
     {/* <Partners/> */}
 
 
-    <Projects/>
-    <Contact/>
+    {/* <Projects/>
+    <Contact/> */}
     </div>
   );
 }

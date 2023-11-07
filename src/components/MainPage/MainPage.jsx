@@ -1,12 +1,18 @@
 import React from 'react'
-import img from "./Assets/image.png"
+import img from "./Assets/banner.jpg"
+import logo from "./Assets/logo.png"
 import "./style.css"
 
 function MainPage() {
   return (
-    <div className='main-container' id='home'>
+ <div>
+     <div className='main-container' id='home'>
       <img src={img} className='img-responsive' alt="background"/>
+     
     </div>
+
+    
+ </div>
   )
 }
 
