@@ -1,7 +1,7 @@
-.cp-container{
-    margin:0px 7px 5% 7px;
+.client-container{
+    margin:0px 0px 15% 0px;
 }
-.img-responsive {
+.imgg-responsive {
     width: 100%;
     height: auto;
     object-fit: cover; /* or 'contain' depending on your needs */

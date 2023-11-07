@@ -1,6 +1,10 @@
-.cp-container{
-    margin:0px 7px 5% 7px;
+.about-container{
+    margin:0px 0px 15% 0px;
 }
+.about-container:hover{
+    transform:scale(0.9);
+}
+
 .img-responsive {
     width: 100%;
     height: auto;
