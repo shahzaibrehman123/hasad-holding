@@ -1,8 +1,0 @@
-.client-container{
-    margin:0px 0px 15% 0px;
-}
-.img-responsive {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* or 'contain' depending on your needs */
-  }

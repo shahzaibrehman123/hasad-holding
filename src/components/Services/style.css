@@ -1,7 +1,8 @@
 .Service-section {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: center;
   padding: 20px;
+  margin-bottom: 10%;
 }
 
 .Services {
@@ -11,7 +12,7 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.card {
+.card { 
   height: 300px;
   width: 250px;
   background-color: #2e303e;
@@ -21,6 +22,17 @@
   display: block;
   margin: 0 auto;
   padding: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color:#96835f;
+  border: 2px solid #2e303e;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  .card-info {
+    font-size: 22px;
+    color: #2e303e;
+  }
 }
 
 .card-info {

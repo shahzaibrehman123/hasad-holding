@@ -1,20 +1,17 @@
-
-
-.main-container{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    max-height: 970px; 
-  }
-
-
-
-
-  
-
+.main-container {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-height: 1000px;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* or 'contain' depending on your needs */
+}

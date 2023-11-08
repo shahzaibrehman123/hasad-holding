@@ -1,0 +1,24 @@
+
+.swiper-wrapper {
+  
+    background-color: #2E303E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.swiper-img {
+  color: grey;
+  transition: transform 0.3s ease-in-out;
+}
+.swiper-img:hover {
+  transform: scale(1.1);
+}
+
+.heading {
+  color: #96835f;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}

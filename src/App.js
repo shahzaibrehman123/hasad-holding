@@ -1,18 +1,14 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import AboutUs from './components/AboutUs/AboutUs';
-// import Clients from './components/Clients/Clients';
 import MainPage from './components/MainPage/MainPage';
-import Numbers from './components/Numbers/Numbers';
-// import Partners from './components/Partners/Partners';
-import Projects from './components/Projects/Projects';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
-import ClientAndPartners from './components/ClientAndPartners/ClientAndPartners';
-import NumberAnimation from './components/NumberAnimation/NumberAnimation';
+import SwiperComponent from './components/Services/Swiper'
+
+
 
 function App() {
   return (
@@ -20,19 +16,9 @@ function App() {
     <Header/>
     <MainPage/>
     <AboutUs/>
-     <Services/>
-    
- 
-
-    
-
-
-    {/* <Clients/> */}
-    {/* <Partners/> */}
-
-
-    {/* <Projects/>
-    <Contact/> */}
+    <Services/>
+    <SwiperComponent/>
+    <Contact/>
     </div>
   );
 }
