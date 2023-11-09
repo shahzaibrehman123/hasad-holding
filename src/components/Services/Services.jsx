@@ -1,46 +1,46 @@
 import React from "react";
-import person from "./Assets/person.png";
-import wheel from "./Assets/wheel.png";
-import monitor from "./Assets/monitor.png";
-import sheet from "./Assets/sheet.png";
-import home from "./Assets/home.png";
+
+import { Icon } from "@iconify/react";
 import "./style.css";
 import NumberAnimation from "../NumberAnimation/NumberAnimation";
 
-function Services() {
+function Services({ data }) {
+  
   return (
     <div className="Service-section" id="service">
-      <h3 className="heading">Services</h3>
-      <h3 className="heading">خدمات</h3>
+      <h3 className="heading">{data.title}</h3>
+      
 
       <div className="Services">
         <div className="card">
-          <img src={person} className="card-img" alt="Project management" />
-          <div className="card-info">Project management</div>
-          <div className="card-info">تصميم المشروع</div>
+          <Icon icon="mdi:construction" className="icon-style" />
+          <div className="card-info">{data.lables[0]}</div>
         </div>
 
         <div className="card">
-          <img src={wheel} alt="Building material" />
-          <div className="card-info">Building material</div>
-          <div className="card-info">توريد مواد البناء</div>
+          <Icon icon="bi:bricks" className="icon-style" />
+          <div className="card-info">{data.lables[1]}</div>
         </div>
 
         <div className="card">
-          <img src={monitor} alt="Project design" />
-          <div className="card-info">Project design</div>
-          <div className="card-info">تصميم المشروع</div>
+          <Icon icon="clarity:design-line" className="icon-style" />
+          <div className="card-info">{data.lables[2]}</div>
         </div>
 
         <div className="card">
-          <img src={sheet} alt="Construction" />
-          <div className="card-info">Construction</div>
-          <div className="card-info">بناء</div>
+          <Icon icon="ic:sharp-construction" className="icon-style" />
+          <div className="card-info">{data.lables[3]}</div>
         </div>
         <div className="card">
-          <img src={home} alt="Facility Management" />
-          <div className="card-info">Facility Management</div>
-          <div className="card-info">إدارة المرافق</div>
+          <Icon icon="ic:round-supervised-user-circle" className="icon-style" />
+          <div className="card-info">{data.lables[4]}</div>
+        </div>
+        <div className="card">
+          <Icon
+            icon="streamline:shopping-building-real-home-tower-building-house-estate"
+            className="icon-style"
+          />
+          <div className="card-info">{data.lables[5]}</div>
         </div>
       </div>
 
@@ -50,8 +50,7 @@ function Services() {
           <div className="count">
             +<NumberAnimation startCount={0} endCount={25} />
           </div>
-          <div className="card-info line">Years of experience</div>
-          <div className="card-info line">سنوات من الخبرة</div>
+          <div className="card-info line">{data.numbers[0]}</div>
         </div>
 
         <div>
@@ -59,8 +58,7 @@ function Services() {
           <div className="count">
             +<NumberAnimation startCount={0} endCount={200} />
           </div>
-          <div className="card-info line">Engineer and technician</div>
-          <div className="card-info line">مهندس وفني</div>
+          <div className="card-info line">{data.numbers[1]}</div>
         </div>
 
         <div>
@@ -69,9 +67,8 @@ function Services() {
             +<NumberAnimation startCount={0} endCount={400} />M
           </div>
           <div className="card-info line-right">
-            The implemented project's value
+          {data.numbers[2]}
           </div>
-          <div className="card-info line">قيمة المشروع المنفذ</div>
         </div>
 
         <div className="counts">
@@ -79,8 +76,7 @@ function Services() {
           <div className="count">
             + <NumberAnimation startCount={0} endCount={100} />
           </div>
-          <div className="card-info line-right">Projects</div>
-          <div className="card-info line">المشاريع</div>
+          <div className="card-info line-right">{data.numbers[3]}</div>
         </div>
       </div>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 import img from "./Assets/banner.jpg"
-import logo from "./Assets/logo.png"
+
 import "./style.css"
 
 function MainPage() {
+  
   return (
  <div>
      <div className='main-container' id='home'>

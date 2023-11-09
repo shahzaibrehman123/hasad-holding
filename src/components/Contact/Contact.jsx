@@ -1,21 +1,20 @@
 import React from "react";
 import "./style.css";
-import phonelogo from "./Assets/phone.png";
-import locationlogo from "./Assets/location.png";
 
-const ContactUs = () => {
+import { Icon } from "@iconify/react";
+
+const ContactUs = ({data}) => {
   return (
     <div className="contact-us" id="contact">
-      <h2>Contact Us</h2>
-      <h2>تواصل معنا</h2>
+      <h2>{data.title}</h2>
+ 
       <div className="contact-form">
         <div className="content">
           <p>
-            Thank you for your interest! Please feel free to reach out to us
-            with any questions or comments.
+          {data.content[0]}
           </p>
           <br></br>
-          <p>You can contact us through the following methods:</p>
+          <p>  {data.content[1]}</p>
           <ul>
             <li>Email: Hasad@holding.com</li>
             <li>Phone: 123-5123-966</li>
@@ -24,20 +23,12 @@ const ContactUs = () => {
       </div>
       <div className="footer">
         <div className="footer-left">
-          <img
-            style={{ width: "35px", height: "35px" }}
-            src={phonelogo}
-            alt="logo"
-          ></img>
+        <Icon icon="ic:baseline-phone" fontSize={25} />
           <p className="numb">123 5123 966</p>
         </div>
 
         <div className="footer-right">
-        <img
-            style={{ width: "35px", height: "35px" }}
-            src={locationlogo}
-            alt="lologo"
-          ></img>
+        <Icon icon="mdi:location"  fontSize={25} />
           <p className="numb">Riyadh, Saudia</p>
         </div>
       </div>

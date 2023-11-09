@@ -9,6 +9,8 @@ const NumberAnimation = ({ startCount, endCount }) => {
     const targetNumber = endCount; // Use the provided end count
     let currentNumber = startCount; // Use the provided start count
 
+    const container = containerRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
@@ -29,20 +31,20 @@ const NumberAnimation = ({ startCount, endCount }) => {
       }
     );
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
+    if (container) {
+      observer.observe(container);
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
+      if (container) {
+        observer.unobserve(container);
       }
     };
   }, [startCount, endCount]);
 
   return (
     <div ref={containerRef}>
-      <span >{number}</span>
+      <span>{number}</span>
     </div>
   );
 };

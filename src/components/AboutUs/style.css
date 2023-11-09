@@ -1,7 +1,7 @@
 .About-us-section {
-  background-color: #2e303e;
-  margin-top: 10%;
-  margin-bottom: 15%;
+  background-color: #212529;
+  margin-top: 5%;
+  margin-bottom: 10%;
   padding: 20px;
 }
 
@@ -13,6 +13,7 @@
 }
 
 .about-us-content {
+  width: 60%;
   font-size: 22px;
   text-align: center;
   color: #96835f;

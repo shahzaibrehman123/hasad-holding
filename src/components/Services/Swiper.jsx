@@ -67,11 +67,11 @@ const imageSources = [
   twentyseven,
 ];
 
-export default function SwiperComponent() {
+export default function SwiperComponent({data}) {
   return (
     <>
-      <div className="heading">Our Clients</div>
-      <div className="heading">عملائنا</div>
+      <div className="heading">{data.title}</div>
+     
       <div className="swiper-wrapper">
         <Swiper
           slidesPerView={window.innerWidth > 768 ? 7 : 3}
