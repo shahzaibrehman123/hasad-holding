@@ -9,17 +9,17 @@ export const English = [
     title: "Services",
     lables: [
       "Project management",
-      "Building material",
+      "Building material supply",
       "Project design",
       "Construction",
-      "Facility Management",
+      "Facility Management and maintenance",
       "Real Estate Development",
     ],
     numbers: [
       "Years of experience",
       "Engineer and technician",
-      "The implemented project's value",
-      "Projects",
+      "Total value of delivered projects",
+      "Number of delivered projects",
     ],
   },
 
@@ -37,32 +37,32 @@ export const English = [
   {
     title: "Hasad Holding",
 
-    items: ["Home", "Services", "About Us", "Contact Us"],
+    items: ["Our Numbers", "Services", "About Us", "Contact Us"],
   },
 ];
 
 export const Arabic = [
   {
-    title: "معلومات عنا",
+    title: "من نحن",
     content:
       "شركة سعودية رائدة،مصنفة كمقاول من الدرجة الثانية من قبل وزارة الشؤون البلدية والإسكان، لدينا تاريخ حافل بالنجاح في دعم عملائنا عبر قطاعات مختلفة ولعب دور محوري في صناعات البناء والتطوير العقاري في المملكة العربية السعودية.",
   },
 
   {
-    title: "الخدمات",
+    title: "خدماتنا",
     lables: [
       "إدارة المشاريع",
-      "مواد البناء",
-      "تصميم المشروع",
-      "البناء",
-      "إدارة المرافق",
-      "تطوير العقارات",
+      "توريد مواد البناء",
+      "تصاميم المشاريع",
+      "الإنشاءات والمقاولات",
+      "التشغيل والصيانة",
+      "التطوير العقاري",
     ],
     numbers: [
-      "سنوات الخبرة",
-      "المهندسين والفنيين",
-      "قيمة المشروع المنفذ",
-      "مشاريع",
+      "عام من الخبر",
+      "مهندس وفني",
+      "قيمة المشاريع المنفذة",
+      "عدد المشاريع المنفذة",
     ],
   },
 
@@ -80,6 +80,6 @@ export const Arabic = [
   {
     title: "حصاد القابضة",
 
-    items: ["الرئيسية", "الخدمات", "من نحن", "اتصل بنا"],
+    items: ["أرقامنا", "الخدمات", "من نحن", "اتصل بنا"],
   },
 ];

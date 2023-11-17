@@ -29,7 +29,7 @@ React.useEffect(()=>{
 
 
   return (
-    <div style={{ backgroundColor: '#212529', minHeight: '100vh' }}>
+    <div style={{ backgroundColor: '#212529', minHeight: '100vh'   }}>
       <Header
         data={content[4]}
         setChecked={setChecked}
@@ -37,7 +37,7 @@ React.useEffect(()=>{
         handleSwitchChange={handleSwitchChange}
       />
       <MainPage />
-      <AboutUs data={content[0]} />
+      <AboutUs data={content[0]}  isChecked={isChecked} />
       <Services data={content[1]} />
       <SwiperComponent data={content[2]} />
       <Contact data={content[3]} />

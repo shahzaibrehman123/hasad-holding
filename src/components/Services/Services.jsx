@@ -5,11 +5,9 @@ import "./style.css";
 import NumberAnimation from "../NumberAnimation/NumberAnimation";
 
 function Services({ data }) {
-  
   return (
     <div className="Service-section" id="service">
       <h3 className="heading">{data.title}</h3>
-      
 
       <div className="Services">
         <div className="card">
@@ -64,11 +62,10 @@ function Services({ data }) {
         <div>
           {" "}
           <div className="count">
-            +<NumberAnimation startCount={0} endCount={400} />M
+            + SAR&nbsp;
+            <NumberAnimation startCount={0} endCount={400} />M
           </div>
-          <div className="card-info line-right">
-          {data.numbers[2]}
-          </div>
+          <div className="card-info line-right">{data.numbers[2]}</div>
         </div>
 
         <div className="counts">

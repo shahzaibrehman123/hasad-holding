@@ -22,3 +22,11 @@
   font-weight: bold;
   font-size: 28px;
 }
+
+img {
+  image-rendering: optimizeQuality; /* CSS3 */
+  image-rendering: -webkit-optimize-contrast; /* Safari 6, UC Browser 9.9+ */
+  image-rendering: -moz-crisp-edges; /* Firefox (non-standard naming) */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: pixelated; /* Chrome 41+ and Opera 26+ */
+}
