@@ -82,5 +82,6 @@ align-items: center;
 }
 
 .money{
+  margin-bottom: 0 !important;
   text-wrap: nowrap;
 }
