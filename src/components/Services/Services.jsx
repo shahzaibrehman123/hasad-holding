@@ -62,7 +62,7 @@ function Services({ data }) {
         <div>
           {" "}
           <div className="count">
-           <p className="money"> + SAR&nbsp;</p>
+            +SAR&nbsp;
             <NumberAnimation startCount={0} endCount={400} />M
           </div>
           <div className="card-info line-right">{data.numbers[2]}</div>

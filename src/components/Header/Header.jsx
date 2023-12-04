@@ -46,7 +46,7 @@ function Header({ data, isChecked, handleSwitchChange }) {
 
               <Dropdown.Menu>
                 <Dropdown.Item onClick={handleSwitchChange}>
-                  {isChecked ? "English - إنجليزي" : "Arabic  -  أرقامنا"}
+                  {isChecked ? "English - إنجليزي" : "Arabic  -  العربية"}
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
