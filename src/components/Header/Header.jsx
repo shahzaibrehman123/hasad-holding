@@ -13,7 +13,7 @@ import "./style.css";
 function Header({ data, isChecked, handleSwitchChange }) {
   return (
     <BrowserRouter>
-      <Navbar bg="dark" data-bs-theme="dark" fixed="top" expand="lg">
+      <Navbar bg="dark" data-bs-theme="dark" fixed="top" expand="lg" className="pb-2">
         <Container>
           <img
             alt="logo"

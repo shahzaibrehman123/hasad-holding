@@ -1,6 +1,6 @@
 .About-us-section {
   background-color: #212529;
-  margin-top: 5%;
+  margin-top: 30px;
   margin-bottom: 5%;
   padding: 20px;
 }
@@ -16,7 +16,7 @@
   font-size: 22px;
 
   color: #96835f;
-  word-spacing: -2px;
+  word-spacing: 4px;
   animation: slide-in 1s ease-in-out;
 }
 

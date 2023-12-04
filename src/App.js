@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from './components/AboutUs/AboutUs';
-import MainPage from './components/MainPage/MainPage';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
@@ -30,14 +29,20 @@ React.useEffect(()=>{
 
   return (
     <div style={{ backgroundColor: '#212529', minHeight: '100vh'   }}>
-      <Header
+     <div className='mb-3'>
+     <Header
         data={content[4]}
         setChecked={setChecked}
         isChecked={isChecked}
         handleSwitchChange={handleSwitchChange}
       />
-      <MainPage />
-      <AboutUs data={content[0]}  isChecked={isChecked} />
+
+     </div>
+   
+    
+    <div className='mt-4'>
+    <AboutUs data={content[0]}  isChecked={isChecked} />
+    </div>
       <Services data={content[1]} />
       <SwiperComponent data={content[2]} />
       <Contact data={content[3]} />
